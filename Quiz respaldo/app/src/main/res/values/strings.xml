@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="question_1">¿La luna es de queso?</string>
+    <string name="question_2">¿Existe Santa Claus?</string>
+    <string name="question_3">¿El cielo es realmente azuk?</string>
+    <string name="question_4">¿La Tierra es plana?</string>
+    <string name="question_5">¿Viajamos realmente a la luna?</string>
+    <string name="question_6">¿Hay aliens en la area 51?</string>
+    <string name="question_7">¿8 horas de trabajo es mucho?</string>
+
+    <string name="true_button">TRUE</string>
+    <string name="false_button">FALSE</string>
+    <string name="previous_button">PREV</string>
+    <string name="next_button">NEXT</string>
+</resources>
+

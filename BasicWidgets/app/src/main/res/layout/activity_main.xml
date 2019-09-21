@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/tool_button"
+        android:src="@drawable/ic_zoom_in_black_48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Switch
+        android:id="@+id/enable_switch"
+        android:text="Habilita pistas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <CheckBox
+            android:id="@+id/red_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Rojo" />
+
+        <CheckBox
+            android:id="@+id/blue_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Azul" />
+
+        <CheckBox
+            android:id="@+id/green_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Verde" />
+
+        <CheckBox
+            android:id="@+id/cyan_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Cyan" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/colors_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="143dp">
+
+        <RadioButton
+            android:id="@+id/samsung_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Samsung"
+            android:onClick="onRadioButtonClick"/>
+
+        <RadioButton
+            android:id="@+id/lg_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LG"
+            android:onClick="onRadioButtonClick"/>
+
+        <RadioButton
+            android:id="@+id/huawei_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huawei"
+            android:onClick="onRadioButtonClick"/>
+
+        <RadioButton
+            android:id="@+id/motorola_radio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motorola"
+            android:onClick="onRadioButtonClick"/>
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:id="@+id/true_false_toggle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="FALSE"
+        android:textOn="TRUE"/>
+    <Spinner
+        android:id="@+id/planets_spinner"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        />
+    <!--        android:entries="@array/planets_array"-->
+</LinearLayout>
