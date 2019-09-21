@@ -5,8 +5,14 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import java.lang.IllegalArgumentException
+import android.widget.CompoundButton
+import android.widget.CheckBox
+
+
 
 class Opciones2 : AppCompatActivity() {
+
+
 
     private lateinit var todosCheckBox: CheckBox
     private lateinit var cineCheckBox: CheckBox
@@ -43,9 +49,11 @@ class Opciones2 : AppCompatActivity() {
         questionSpinner=findViewById(R.id.numbers_quest_spinner)
         cheatsSpinner=findViewById(R.id.numbers_cheat_no_spinner)
 
+
+
         questionSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                val planetsArray = resources.getStringArray(R.array.quest_array)
+                val questionArray = resources.getStringArray(R.array.quest_array)
                 Toast.makeText(
                     this@Opciones2,
                     questionSpinner.selectedItem.toString(),
@@ -60,7 +68,7 @@ class Opciones2 : AppCompatActivity() {
         }
         cheatsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                val planetsArray = resources.getStringArray(R.array.cheats_no_array)
+                val cheatsArray = resources.getStringArray(R.array.cheats_no_array)
                 Toast.makeText(
                     this@Opciones2,
                     cheatsSpinner.selectedItem.toString(),
@@ -73,6 +81,7 @@ class Opciones2 : AppCompatActivity() {
 
             }
         }
+
 
 
     }
