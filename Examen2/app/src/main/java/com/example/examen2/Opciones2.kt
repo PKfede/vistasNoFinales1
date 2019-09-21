@@ -50,7 +50,7 @@ class Opciones2 : AppCompatActivity() {
         cheatsSpinner=findViewById(R.id.numbers_cheat_no_spinner)
 
 
-        enableSwitch.setOnCheckedChangeListener { v, ischecked ->
+        pistasSwitch.setOnCheckedChangeListener { v, ischecked ->
             if (ischecked) {
                 Toast.makeText(this, "Pistas activadas...", Toast.LENGTH_SHORT).show()
             } else {
