@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Opciones2">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -154,52 +158,52 @@
             android:text="Dificultad"/>
 
     </LinearLayout>
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_marginLeft="0dp"
-    android:layout_marginBottom="0dp"
-    android:layout_height="wrap_content">
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:orientation="vertical"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
         android:layout_height="wrap_content">
-        <RadioGroup
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <RadioButton
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_height="match_parent">
 
-        </RadioGroup>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginLeft="30dp"
-        android:layout_height="match_parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="0dp"
-            android:text="Alta"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="20dp"
-            android:text="Baja"/>
-    </LinearLayout>
-    </LinearLayout>
-</RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Alta"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Baja"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -253,4 +257,5 @@
             />
 
     </LinearLayout>
-    </LinearLayout>
+
+</LinearLayout>
