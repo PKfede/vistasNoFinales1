@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Examen2</string>
 
-    <string-array name="cheats_array">
+    <string-array name="quest_array">
         <item>1</item>
         <item>2</item>
         <item>3</item>

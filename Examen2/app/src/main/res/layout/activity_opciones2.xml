@@ -18,6 +18,7 @@
             android:layout_marginTop="30dp"
             android:text="Temas"></TextView>
         <CheckBox
+            android:id="@+id/todos_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -40,6 +41,7 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/cine_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -48,6 +50,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="Cine      "/>
             <CheckBox
+                android:id="@+id/fisica_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -68,6 +71,7 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/historia_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -76,6 +80,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="Historia"/>
             <CheckBox
+                android:id="@+id/matematicas_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -98,6 +103,7 @@
             android:layout_height="wrap_content">
 
             <CheckBox
+                android:id="@+id/na1_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -106,6 +112,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="Cine      "/>
             <CheckBox
+                android:id="@+id/na2_check"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -123,6 +130,7 @@
         android:layout_height="80dp">
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -130,7 +138,7 @@
             android:text="No. de preguntas"></TextView>
 
         <Spinner
-            android:id="@+id/numbers_cheat_spinner"
+            android:id="@+id/numbers_quest_spinner"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_width="wrap_content"
@@ -164,11 +172,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <RadioButton
+                    android:id="@+id/alta_radio"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClick"/>
+
                 <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:id="@+id/baja_radio"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClick"/>
 
             </RadioGroup>
         </LinearLayout>
@@ -214,6 +227,7 @@
 
             android:layout_height="wrap_content">
             <Switch
+                android:id="@+id/pistas_switch"
                 android:layout_width="wrap_content"
                 android:layout_marginLeft="350dp"
                 android:layout_height="wrap_content"/>
