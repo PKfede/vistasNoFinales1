@@ -49,6 +49,17 @@ class Opciones2 : AppCompatActivity() {
         questionSpinner=findViewById(R.id.numbers_quest_spinner)
         cheatsSpinner=findViewById(R.id.numbers_cheat_no_spinner)
 
+
+        enableSwitch.setOnCheckedChangeListener { v, ischecked ->
+            if (ischecked) {
+                Toast.makeText(this, "Pistas activadas...", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "pistas desactivadas...", Toast.LENGTH_SHORT).show()
+            }
+
+
+        }
+
         val data = arrayOf("5", "4", "3","2","1")
 
         var adapter : ArrayAdapter<String>
@@ -71,7 +82,7 @@ class Opciones2 : AppCompatActivity() {
 
             }
         }
-        val data1 = arrayOf("5", "4", "3","2","1")
+        val data1 = arrayOf("3","2","1")
 
         var adapter1 : ArrayAdapter<String>
                 = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data1)
