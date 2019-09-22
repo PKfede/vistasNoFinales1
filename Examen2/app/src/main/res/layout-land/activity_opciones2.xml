@@ -19,6 +19,7 @@
             android:layout_marginTop="30dp"
             android:text="Temas"></TextView>
         <CheckBox
+            android:id="@+id/todos_check"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -44,6 +45,7 @@
                 android:layout_height="60dp">
 
                 <CheckBox
+                    android:id="@+id/cine_check"
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="29dp"
                     android:layout_height="wrap_content"/>
@@ -56,6 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/fisica_check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -76,14 +79,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/historia_check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:text="Historia"/>
                 <CheckBox
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/matematicas_check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -103,6 +109,7 @@
                 android:layout_height="wrap_content">
 
                 <CheckBox
+                    android:id="@+id/na1_check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
@@ -114,6 +121,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
+                    android:id="@+id/na2_check"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
@@ -173,9 +181,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <RadioButton
+                    android:id="@+id/alta_radio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <RadioButton
+                    android:id="@+id/baja_radio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
