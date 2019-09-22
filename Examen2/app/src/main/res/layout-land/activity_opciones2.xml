@@ -239,6 +239,7 @@
                 android:text="Habilitar pistas" />
 
             <Switch
+                android:id="@+id/pistas_switch"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="29dp" />
