@@ -35,33 +35,40 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp">
+
             <LinearLayout
+
                 android:layout_width="match_parent"
-                android:gravity="left"
-                android:layout_height="60dp">
+                android:layout_height="60dp"
+                android:gravity="left">
 
                 <CheckBox
                     android:id="@+id/cine_check"
                     android:layout_width="wrap_content"
-                    android:layout_marginLeft="29dp"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="29dp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="Cine      "/>
+                    android:text="Cine      " />
+
                 <CheckBox
                     android:id="@+id/fisica_check"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="Fisica              "/>
+                    android:text="Fisica              " />
 
             </LinearLayout>
         </LinearLayout>
@@ -133,20 +140,20 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:gravity="center_horizontal"
-        android:layout_height="70dp">
+        android:layout_height="40dp">
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
+
             android:text="No. de preguntas"></TextView>
 
         <Spinner
-            android:id="@+id/numbers_cheat_spinner"
+            android:id="@+id/numbers_quest_spinner"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:spinnerMode="dialog"
@@ -155,8 +162,7 @@
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-
-        android:layout_height="35dp">
+        android:layout_height="wrap_content">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,11 +187,14 @@
                 <RadioButton
                     android:id="@+id/alta_radio"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClick"/>
+
                 <RadioButton
                     android:id="@+id/baja_radio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClick"/>
 
             </RadioGroup>
         </LinearLayout>
@@ -213,54 +222,44 @@
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:gravity="center_horizontal"
-        android:layout_height="40dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:gravity="center_horizontal"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="29dp"
-                android:text="Habilitar pistas" />
-
-            <Switch
-                android:id="@+id/pistas_switch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="29dp" />
-
-
-        </LinearLayout>
-    </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:gravity="center_horizontal"
-        android:layout_height="80dp">
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29dp"
+        android:text="Habilitar pistas" />
+
+
+
+    <Switch
+        android:id="@+id/pistas_switch"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="29dp"
-            android:layout_marginTop="30dp"
             android:text="No. de pistas"></TextView>
 
         <Spinner
             android:id="@+id/numbers_cheat_no_spinner"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="30dp"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:spinnerMode="dialog"
