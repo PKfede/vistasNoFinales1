@@ -60,10 +60,10 @@ class Opciones2 : AppCompatActivity() {
 
         }
 
-        val data = arrayOf("5", "4", "3","2","1")
+        val data = arrayOf(5, 4, 3,2,1)
 
-        var adapter : ArrayAdapter<String>
-                = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data)
+        var adapter : ArrayAdapter<Int>
+                = ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, data)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
         questionSpinner.adapter = adapter
 
@@ -82,10 +82,10 @@ class Opciones2 : AppCompatActivity() {
 
             }
         }
-        val data1 = arrayOf("3","2","1")
+        val data1 = arrayOf(3,2,1)
 
-        var adapter1 : ArrayAdapter<String>
-                = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, data1)
+        var adapter1 : ArrayAdapter<Int>
+                = ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, data1)
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_item)
         cheatsSpinner.adapter = adapter
         cheatsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
