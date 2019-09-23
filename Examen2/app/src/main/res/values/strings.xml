@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Examen2</string>
 
+    <string name="prvGameBtn">Anterior</string>
+
+    <string name="nxtGameBtn">Siguiente</string>
     <string-array name="quest_array">
         <item>1</item>
         <item>2</item>
@@ -12,5 +15,199 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+
+    <string-array name="quest_comics">
+        <item> ¿Cuantos Green Lanterns hay que provengan de la tierra? </item>
+        <item> ¿Quien fue el segundo robin? </item>
+        <item> ¿Quien usa rayos omega como su movimiento principal?</item>
+        <item> ¿Que busca thanos en Infinity War? </item>
+        <item> ¿De donde viene Superman? </item>
+    </string-array>
+    <string-array name="ans_comics1">
+        <item>1</item>
+        <item>4</item>
+        <item>6*</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="ans_comics2">
+        <item>Jason Todd</item>
+        <item>Dick Grayson</item>
+        <item>Damian Wayne</item>
+        <item>Tim Drake</item>
+    </string-array>
+    <string-array name="ans_comics3">
+        <item>Darkside*</item>
+        <item>Thanos</item>
+        <item>Terrax</item>
+        <item>Mongul</item>
+    </string-array>
+    <string-array name="ans_comics4">
+        <item>Anti-Life Equation</item>
+        <item>Infinity stones*</item>
+        <item>Infinity Gauntlet</item>
+        <item>Phoenyx Force</item>
+    </string-array>
+    <string-array name="ans_comics5">
+        <item>Krypton*</item>
+        <item>Metropolis</item>
+        <item>Gotham</item>
+        <item>Smallville</item>
+    </string-array>
+
+
+    <string-array name="quest_fisica">
+        <item>¿Que es el gran atractor?</item>
+        <item>¿Cual no es inestable? </item>
+        <item>¿donde esta el centro del universo?</item>
+        <item>¿Cual es la antiparticula del neutron?</item>
+        <item>¿En una tormenta de rayos en el campo que harias?</item>
+    </string-array>
+    <string-array name="ans_fisica1">
+        <item>agujero negro en el centro de la galaxia</item>
+        <item>el centro del universo</item>
+        <item>region del universo a donde se dirige todo*</item>
+        <item>fede siendo un iman de pena y deshonra</item>
+    </string-array>
+    <string-array name="ans_fisica2">
+        <item>el neutron</item>
+        <item>el neutrino*</item>
+        <item>el boson de higgs</item>
+        <item>tus sentimientos</item>
+    </string-array>
+    <string-array name="ans_fisica3">
+        <item>no hay centro especifico*</item>
+        <item>la frente de samir</item>
+        <item>la voz de segovia</item>
+        <item>todas son correctas*</item>
+    </string-array>
+    <string-array name="ans_fisica4">
+        <item>No tiene antiparticula</item>
+        <item>El antineutron*</item>
+        <item>el proton</item>
+        <item>no se ha descubierto</item>
+    </string-array>
+    <string-array name="ans_fisica5">
+        <item>subirte al punto mas alto</item>
+        <item>Meterte dentro de un coche*</item>
+        <item>Ponerte debajo de un arbol</item>
+        <item>Aceptar tu muerte</item>
+    </string-array>
+
+
+    <string-array name="quest_cine">
+        <item>¿Cuantas peliculas tiene el universo de marvel?</item>
+        <item>¿Cual es la octava pelicula de Quentin Tarantino?</item>
+        <item>¿Los dinosaurios de pusieron de moda gracias a cual pelicula?</item>
+        <item>¿Que estudio hizo la saga de Toy Story?</item>
+        <item>¿El modelo T-800 es el modelo de un robot de que pelicula?</item>
+    </string-array>
+    <string-array name="ans_cine1">
+        <item>22*</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="ans_cine2">
+        <item>The Hateful Eight*</item>
+        <item>Kill Bill</item>
+        <item>Reservoir Dogs</item>
+        <item>Django</item>
+    </string-array>
+    <string-array name="ans_cine3">
+        <item>Jurassic Park*</item>
+        <item>King Kong</item>
+        <item>Godzilla</item>
+        <item>Cars Edicion Samir</item>
+    </string-array>
+    <string-array name="ans_cine4">
+        <item>Pixar*</item>
+        <item>Disney</item>
+        <item>Fox</item>
+        <item>Universal</item>
+    </string-array>
+    <string-array name="ans_cine5">
+        <item>Yo, Robot</item>
+        <item>Cortocircuito</item>
+        <item>Terminator*</item>
+        <item>Robocop</item>
+    </string-array>
+
+
+    <string-array name="quest_mate">
+        <item>¿Quien dijo "Los matematicos son una maquina que convierten cafe en teorias"?</item>
+        <item>¿Que es mas grande que el infinito de los numeros naturales?</item>
+        <item>¿Cuanto pesan los oceanos en la tierra?</item>
+        <item>¿Cual de estos problemas sigue abierto?</item>
+        <item>¿cuanto es 2 + 2?</item>
+    </string-array>
+    <string-array name="ans_mate1">
+        <item>Martin Gardner*</item>
+        <item>Paul Erdos</item>
+        <item>Albert Einstein</item>
+        <item>zeta</item>
+    </string-array>
+    <string-array name="ans_mate2">
+        <item>Infinito+1</item>
+        <item>2 potencia infinito*</item>
+        <item>2 x infinito</item>
+        <item>todos son iguales</item>
+    </string-array>
+    <string-array name="ans_mate3">
+        <item>4000 veces la poblacion de la tierra*</item>
+        <item>poblacion mundial x 2</item>
+        <item>la mitad de marte</item>
+        <item>el mismo peso de mi orgullo</item>
+    </string-array>
+    <string-array name="ans_mate4">
+        <item>La cuadratura del circulo</item>
+        <item>que todos los numeros son la suma de 3 capicuas</item>
+        <item>que todos los numeros son la suma de dos primos*</item>
+        <item>mi falta de amor propio</item>
+    </string-array>
+    <string-array name="ans_mate5">
+        <item>4*</item>
+        <item>5</item>
+        <item>oreo</item>
+        <item>+un patio+</item>
+    </string-array>
+
+    <string-array name="quest_historia">
+        <item>¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</item>
+        <item>¿Que civilizacion antigua fue la primera en medirla duracion de un año? </item>
+        <item>¿En que año panama se proclama independiente de españa?</item>
+        <item>Durante el siglo XIX¿Que imperio era el mas grande?</item>
+        <item>¿En que año se produjo la revolucion rusa?</item>
+    </string-array>
+    <string-array name="ans_historia1">
+        <item>XII</item>
+        <item>XIV*</item>
+        <item>XVI</item>
+        <item>oreo</item>
+    </string-array>
+    <string-array name="ans_historia">
+        <item>Mayas</item>
+        <item>Egipcios*</item>
+        <item>Aztecas</item>
+        <item>Batman</item>
+    </string-array>
+    <string-array name="ans_historia3">
+        <item>1821*</item>
+        <item>1841</item>
+        <item>1881</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="ans_historia4">
+        <item>Imperio Aleman</item>
+        <item>Imperio Español</item>
+        <item>Imperio Britanico*</item>
+        <item>Imperio Galactico</item>
+    </string-array>
+    <string-array name="ans_historia5">
+        <item>1990</item>
+        <item>1917</item>
+        <item>1929</item>
+        <item>1980</item>
     </string-array>
 </resources>
