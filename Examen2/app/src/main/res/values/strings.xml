@@ -172,4 +172,42 @@
         <item>oreo</item>
         <item>+un patio+</item>
     </string-array>
+
+    <string-array name="quest_historia">
+        <item>¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</item>
+        <item>¿Que civilizacion antigua fue la primera en medirla duracion de un año? </item>
+        <item>¿En que año panama se proclama independiente de españa?</item>
+        <item>Durante el siglo XIX¿Que imperio era el mas grande?</item>
+        <item>¿En que año se produjo la revolucion rusa?</item>
+    </string-array>
+    <string-array name="ans_historia1">
+        <item>XII</item>
+        <item>XIV*</item>
+        <item>XVI</item>
+        <item>oreo</item>
+    </string-array>
+    <string-array name="ans_historia">
+        <item>Mayas</item>
+        <item>Egipcios*</item>
+        <item>Aztecas</item>
+        <item>Batman</item>
+    </string-array>
+    <string-array name="ans_historia3">
+        <item>1821*</item>
+        <item>1841</item>
+        <item>1881</item>
+        <item>2000</item>
+    </string-array>
+    <string-array name="ans_historia4">
+        <item>Imperio Aleman</item>
+        <item>Imperio Español</item>
+        <item>Imperio Britanico*</item>
+        <item>Imperio Galactico</item>
+    </string-array>
+    <string-array name="ans_historia5">
+        <item>1990</item>
+        <item>1917</item>
+        <item>1929</item>
+        <item>1980</item>
+    </string-array>
 </resources>

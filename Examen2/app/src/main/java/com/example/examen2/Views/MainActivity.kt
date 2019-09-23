@@ -7,13 +7,10 @@ import android.widget.Button
 import android.R.attr.button
 import android.content.DialogInterface
 import android.view.View
+import com.example.examen2.Views.QuizGameActivity
 
 
 class MainActivity : AppCompatActivity() {
-
-
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,14 +18,14 @@ class MainActivity : AppCompatActivity() {
 
         val btnOpenActivity : Button = findViewById(R.id.btn_start_new_activity)
         btnOpenActivity.setOnClickListener{
-            val intent  = Intent(this, Opciones2 :: class.java)
-            startActivity(intent)
+            val intentOpciones  = Intent(this, Opciones2 :: class.java)
+            startActivity(intentOpciones)
         }
 
         val btnOpenActivityJuego : Button = findViewById(R.id.btn_start_game_activity)
-        btnOpenActivity.setOnClickListener{
-            val intent  = Intent(this, Opciones2 :: class.java)
-            startActivity(intent)
+        btnOpenActivityJuego.setOnClickListener{
+            val intentJuego  = Intent(this, QuizGameActivity :: class.java)
+            startActivity(intentJuego)
         }
     }
 
