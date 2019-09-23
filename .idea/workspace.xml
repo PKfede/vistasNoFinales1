@@ -8,7 +8,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="PKfede &lt;47314404+pkfede@users.noreply.github.com&gt;" />
+        <option value="Cristian Peña" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -22,19 +31,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="vistasNoFinales" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vistasNoFinales" type="462c0819:PsiDirectoryNode" />
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vistasNoFinales2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vistasNoFinales2" type="462c0819:PsiDirectoryNode" />
+              <item name="Examen2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -65,27 +109,44 @@
       <option name="presentableId" value="Default" />
       <updated>1569096633057</updated>
     </task>
+    <task id="LOCAL-00001" summary="Remove_Pejelagarto">
+      <created>1569200037094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569200037094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32982087" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Team" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32935026" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Team" order="7" side_tool="true" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32993197" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove_Pejelagarto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove_Pejelagarto" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Examen2/app/src/main/ic_bazel-web.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
   </component>
 </project>
