@@ -1,17 +1,21 @@
 package com.example.examen2
 
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
 import java.lang.IllegalArgumentException
-import android.widget.CompoundButton
 import android.widget.CheckBox
+import androidx.core.view.get
+import kotlinx.android.synthetic.main.activity_opciones2.*
+import kotlinx.android.synthetic.main.activity_opciones2.view.*
 
-
+object Configuration {
+    var conf = Game_Configuration()
+}
 
 class Opciones2 : AppCompatActivity() {
-
 
 
     private lateinit var todosCheckBox: CheckBox
@@ -22,6 +26,7 @@ class Opciones2 : AppCompatActivity() {
     private lateinit var na1CheckBox: CheckBox
     private lateinit var na2CheckBox: CheckBox
 
+    private lateinit var radioGroupDificultad: RadioGroup
     private lateinit var bajaRadioButton: RadioButton
     private lateinit var altaRadioButton: RadioButton
 
@@ -34,88 +39,128 @@ class Opciones2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_opciones2)
 
-        todosCheckBox =findViewById(R.id.todos_check)
-        cineCheckBox =findViewById(R.id.cine_check)
-        historiaCheckBox =findViewById(R.id.historia_check)
-        matematicasCheckBox =findViewById(R.id.matematicas_check)
-        fisicaCheckBox =findViewById(R.id.fisica_check)
-        na1CheckBox =findViewById(R.id.na1_check)
-        na2CheckBox=findViewById(R.id.na2_check)
+        todosCheckBox = findViewById(R.id.todos_check)
+        cineCheckBox= findViewById(R.id.cine_check)
+        historiaCheckBox= findViewById(R.id.historia_check)
+        matematicasCheckBox= findViewById(R.id.matematicas_check)
+        fisicaCheckBox= findViewById(R.id.fisica_check)
+        na1CheckBox= findViewById(R.id.na1_check)
+        na2CheckBox= findViewById(R.id.na2_check)
 
-        bajaRadioButton=findViewById(R.id.baja_radio)
-        altaRadioButton=findViewById(R.id.alta_radio)
+        radioGroupDificultad = findViewById(R.id.radio_group_dificultad)
+        bajaRadioButton = findViewById(R.id.baja_radio)
+        altaRadioButton = findViewById(R.id.alta_radio)
 
-        pistasSwitch=findViewById(R.id.pistas_switch)
-        questionSpinner=findViewById(R.id.numbers_quest_spinner)
-        cheatsSpinner=findViewById(R.id.numbers_cheat_no_spinner)
+        pistasSwitch = findViewById(R.id.pistas_switch)
+        questionSpinner = findViewById(R.id.numbers_quest_spinner)
+        cheatsSpinner = findViewById(R.id.numbers_cheat_no_spinner)
 
+//      Categorias CheckBox logica
 
-        pistasSwitch.setOnCheckedChangeListener { v, ischecked ->
+        todosCheckBox.isChecked = Configuration.conf.all_categories
+        cineCheckBox.isChecked = Configuration.conf.categories[0].isEnabled
+        historiaCheckBox.isChecked = Configuration.conf.categories[1].isEnabled
+        matematicasCheckBox.isChecked = Configuration.conf.categories[2].isEnabled
+        fisicaCheckBox.isChecked = Configuration.conf.categories[3].isEnabled
+        na1CheckBox.isChecked = Configuration.conf.categories[4].isEnabled
+        na2CheckBox.isChecked = Configuration.conf.categories[5].isEnabled
+
+        todosCheckBox.setOnCheckedChangeListener { _, ischecked ->
+            Configuration.conf.all_categories = ischecked
             if (ischecked) {
-                Toast.makeText(this, "Pistas activadas...", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(this, "pistas desactivadas...", Toast.LENGTH_SHORT).show()
+                cineCheckBox.isChecked=true
+                historiaCheckBox.isChecked=true
+                matematicasCheckBox.isChecked=true
+                fisicaCheckBox.isChecked=true
+                na1CheckBox.isChecked=true
+                na2CheckBox.isChecked=true
             }
-
-
+        }
+        cineCheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(0,cineCheckBox)
+        }
+        historiaCheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(1, historiaCheckBox)
+        }
+        matematicasCheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(2, matematicasCheckBox)
+        }
+        fisicaCheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(3, fisicaCheckBox)
+        }
+        na1CheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(4, na1CheckBox)
+        }
+        na2CheckBox.setOnCheckedChangeListener { _, ischecked ->
+            onCheckedChangeListener(5, na2CheckBox)
         }
 
-        val data = arrayOf(5, 4, 3,2,1)
+//        Numero de preguntas
 
-        var adapter : ArrayAdapter<Int>
-                = ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, data)
+        var adapter: ArrayAdapter<Int> =
+            ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, Configuration.conf.arrayQuestionsNumber)
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item)
+
         questionSpinner.adapter = adapter
 
-        questionSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+        questionSpinner.setSelection(Configuration.conf.questions_number-5)
+
+        questionSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                val questionArray = resources.getStringArray(R.array.quest_array)
-                Toast.makeText(
-                    this@Opciones2,
-                    questionSpinner.selectedItem.toString(),
-                    // planetsArray(p2),
-                    Toast.LENGTH_SHORT
-                ).show()
+                Configuration.conf.questions_number=questionSpinner.selectedItem.toString().toInt()
             }
-
             override fun onNothingSelected(p0: AdapterView<*>?) {
-
             }
         }
-        val data1 = arrayOf(3,2,1)
+//          Dificultad
+        var idCurrentRadio : Int= if(Configuration.conf.dificulty == 0) altaRadioButton.id else bajaRadioButton.id
+        radioGroupDificultad.check(idCurrentRadio)
+        radioGroupDificultad.setOnCheckedChangeListener{_, _->
+            Configuration.conf.dificulty = if(radioGroupDificultad.checkedRadioButtonId == altaRadioButton.id) 0 else bajaRadioButton.id
+        }
 
-        var adapter1 : ArrayAdapter<Int>
-                = ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, data1)
+//          Habilitar pistas
+        pistasSwitch.isChecked = Configuration.conf.cluesOn
+        pistasSwitch.setOnCheckedChangeListener{_,ischecked->
+            Configuration.conf.cluesOn = ischecked
+            Toast.makeText(this,
+                if(ischecked)"Pistas activadas" else "Pistas desactivadas",
+                Toast.LENGTH_SHORT).show()
+            cheatsSpinner.isEnabled = Configuration.conf.cluesOn
+            if(!ischecked){Configuration.conf.clues_number = 1}
+        }
+
+//          Numero de pistas
+        var adapter1: ArrayAdapter<Int> =
+            ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, Configuration.conf.arrayCluesNumber)
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_item)
-        cheatsSpinner.adapter = adapter
-        cheatsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
+
+        //si las pistas no estan activas, pues esto tampoco
+        cheatsSpinner.isEnabled = Configuration.conf.cluesOn
+        cheatsSpinner.adapter = adapter1
+        cheatsSpinner.setSelection(Configuration.conf.clues_number-1)
+
+        cheatsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-                val cheatsArray = resources.getStringArray(R.array.cheats_no_array)
-                Toast.makeText(
-                    this@Opciones2,
-                    cheatsSpinner.selectedItem.toString(),
-                    // planetsArray(p2),
-                    Toast.LENGTH_SHORT
-                ).show()
+                Configuration.conf.clues_number = cheatsSpinner.selectedItem.toString().toInt()
             }
-
             override fun onNothingSelected(p0: AdapterView<*>?) {
-
             }
         }
-
-
-
     }
+
+
+    private fun onCheckedChangeListener(pos:Int, checkBox: CheckBox){
+        Configuration.conf.setEnabledCategory(pos, checkBox.isChecked)
+        todosCheckBox.isChecked = Configuration.conf.getNumOfCategories() == 6
+    }
+
     fun onRadioButtonClick(view: View) {
         val radio = view as RadioButton
-
-        Toast.makeText(this,
-            when (radio.id){
-                R.id.alta_radio -> "Dificultad Alta"
-                R.id.baja_radio -> "Dificultad Baja"
-                else -> throw IllegalArgumentException("radio.id")
-            },
+        var string: String = if(Configuration.conf.dificulty == 0) "Dificultad Alta" else "Dificultad baja"
+        Toast.makeText(
+            this,
+            string,
             Toast.LENGTH_SHORT
         ).show()
     }
