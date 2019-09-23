@@ -18,10 +18,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/quesCont_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center_vertical"
             android:textSize="20sp"
+            android:text="Pregunta:"
             tools:text="Pregunta: 1/10 " />
 
         <TextView
@@ -30,6 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end|center_vertical"
             android:textSize="20sp"
+            android:text="Pistas: 0/3"
             tools:text="Pistas: 0/3" />
 
     </FrameLayout>
@@ -41,7 +44,8 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
-        android:text="Pregunta N:"
+        android:text="Pregunta:"
+        tools:text="Preguntas 1:"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,6 +68,7 @@
         app:layout_constraintEnd_toStartOf="@+id/nxt_Btn"
         app:layout_constraintStart_toEndOf="@+id/prev_Btn"
         app:layout_constraintTop_toBottomOf="@+id/quesNum_text"
+        tools:text="HOLA MUNDO COMO ESTAN ESTO ES UNA PREGUNTA BIEN VERGA"
         android:text="HOLA MUNDO COMO ESTAN ESTO ES UNA PREGUNTA BIEN VERGA" />
 
     <Button
@@ -114,7 +119,7 @@
             android:maxLines="1"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:text="¿ Respuesta Correcta ?" />
+            tools:text="¿ Respuesta Correcta ?" />
 
         <Button
             android:id="@+id/answ2_btn"
@@ -124,8 +129,7 @@
             android:maxLines="1"
             android:textAlignment="center"
             android:textSize="12sp"
-            android:text="¿ Respuesta Correcta ?" />
-
+            tools:text="¿ Respuesta Correcta ?"/>
     </LinearLayout>
 
     <LinearLayout
@@ -149,7 +153,7 @@
             android:layout_height="50dp"
             android:layout_margin="4dp"
             android:maxLines="1"
-            android:text="¿ Respuesta Correcta ?"
+            tools:text="¿ Respuesta Correcta ?"
             android:textAlignment="center"
             android:textSize="12sp" />
 
@@ -159,7 +163,7 @@
             android:layout_height="50dp"
             android:layout_margin="4dp"
             android:maxLines="1"
-            android:text="¿ Respuesta Correcta ?"
+            tools:text="¿ Respuesta Correcta ?"
             android:textAlignment="center"
             android:textSize="12sp" />
 
