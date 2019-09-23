@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:configChanges="orientation|screenSize|keyboardHidden"
-    tools:context=".MainActivity">
+    tools:context=".Views.MainActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"

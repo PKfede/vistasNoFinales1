@@ -1,15 +1,12 @@
-package com.example.examen2
+package com.example.examen2.Views
 
-import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
-import java.lang.IllegalArgumentException
 import android.widget.CheckBox
-import androidx.core.view.get
-import kotlinx.android.synthetic.main.activity_opciones2.*
-import kotlinx.android.synthetic.main.activity_opciones2.view.*
+import com.example.examen2.Game_Configuration
+import com.example.examen2.R
 
 object Configuration {
     var conf = Game_Configuration()
@@ -127,7 +124,8 @@ class Opciones2 : AppCompatActivity() {
                 if(ischecked)"Pistas activadas" else "Pistas desactivadas",
                 Toast.LENGTH_SHORT).show()
             cheatsSpinner.isEnabled = Configuration.conf.cluesOn
-            if(!ischecked){Configuration.conf.clues_number = 1}
+            if(!ischecked){
+                Configuration.conf.clues_number = 1}
         }
 
 //          Numero de pistas
