@@ -181,20 +181,23 @@
             android:layout_width="wrap_content"
             android:orientation="vertical"
             android:layout_height="wrap_content">
+
             <RadioGroup
+                android:id="@+id/radio_group_dificultad"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
                 <RadioButton
                     android:id="@+id/alta_radio"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClick"/>
+                    android:onClick="onRadioButtonClick" />
 
                 <RadioButton
                     android:id="@+id/baja_radio"
                     android:layout_width="48dp"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClick"/>
+                    android:onClick="onRadioButtonClick" />
 
             </RadioGroup>
         </LinearLayout>
