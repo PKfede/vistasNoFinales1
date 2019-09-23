@@ -87,7 +87,7 @@ class Opciones2 : AppCompatActivity() {
         var adapter1 : ArrayAdapter<Int>
                 = ArrayAdapter<Int>(this, android.R.layout.simple_spinner_item, data1)
         adapter1.setDropDownViewResource(android.R.layout.simple_spinner_item)
-        cheatsSpinner.adapter = adapter
+        cheatsSpinner.adapter = adapter1
         cheatsSpinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener{
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
                 val cheatsArray = resources.getStringArray(R.array.cheats_no_array)
