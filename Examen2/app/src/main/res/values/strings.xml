@@ -29,7 +29,7 @@
     <string-array name="ans_comics1">
         <item>1</item>
         <item>4</item>
-        <item>6*</item>
+        <item>6</item>
         <item>5</item>
     </string-array>
     <string-array name="ans_comics2">
@@ -39,19 +39,19 @@
         <item>Tim Drake</item>
     </string-array>
     <string-array name="ans_comics3">
-        <item>Darkside*</item>
+        <item>Darkside</item>
         <item>Thanos</item>
         <item>Terrax</item>
         <item>Mongul</item>
     </string-array>
     <string-array name="ans_comics4">
         <item>Anti-Life Equation</item>
-        <item>Infinity stones*</item>
+        <item>Infinity stones</item>
         <item>Infinity Gauntlet</item>
         <item>Phoenyx Force</item>
     </string-array>
     <string-array name="ans_comics5">
-        <item>Krypton*</item>
+        <item>Krypton</item>
         <item>Metropolis</item>
         <item>Gotham</item>
         <item>Smallville</item>
@@ -68,17 +68,17 @@
     <string-array name="ans_fisica1">
         <item>agujero negro en el centro de la galaxia</item>
         <item>el centro del universo</item>
-        <item>region del universo a donde se dirige todo*</item>
+        <item>region del universo a donde se dirige todo</item>
         <item>fede siendo un iman de pena y deshonra</item>
     </string-array>
     <string-array name="ans_fisica2">
         <item>el neutron</item>
-        <item>el neutrino*</item>
+        <item>el neutrino</item>
         <item>el boson de higgs</item>
         <item>tus sentimientos</item>
     </string-array>
     <string-array name="ans_fisica3">
-        <item>no hay centro especifico*</item>
+        <item>no hay centro especifico</item>
         <item>la frente de samir</item>
         <item>la voz de segovia</item>
         <item>todas son correctas*</item>
@@ -105,25 +105,25 @@
         <item>¿El modelo T-800 es el modelo de un robot de que pelicula?</item>
     </string-array>
     <string-array name="ans_cine1">
-        <item>22*</item>
+        <item>22</item>
         <item>10</item>
         <item>15</item>
         <item>20</item>
     </string-array>
     <string-array name="ans_cine2">
-        <item>The Hateful Eight*</item>
+        <item>The Hateful Eight</item>
         <item>Kill Bill</item>
         <item>Reservoir Dogs</item>
         <item>Django</item>
     </string-array>
     <string-array name="ans_cine3">
-        <item>Jurassic Park*</item>
+        <item>Jurassic Park</item>
         <item>King Kong</item>
         <item>Godzilla</item>
         <item>Cars Edicion Samir</item>
     </string-array>
     <string-array name="ans_cine4">
-        <item>Pixar*</item>
+        <item>Pixar</item>
         <item>Disney</item>
         <item>Fox</item>
         <item>Universal</item>
@@ -131,7 +131,7 @@
     <string-array name="ans_cine5">
         <item>Yo, Robot</item>
         <item>Cortocircuito</item>
-        <item>Terminator*</item>
+        <item>Terminator</item>
         <item>Robocop</item>
     </string-array>
 
@@ -144,19 +144,19 @@
         <item>¿cuanto es 2 + 2?</item>
     </string-array>
     <string-array name="ans_mate1">
-        <item>Martin Gardner*</item>
+        <item>Martin Gardner</item>
         <item>Paul Erdos</item>
         <item>Albert Einstein</item>
         <item>zeta</item>
     </string-array>
     <string-array name="ans_mate2">
         <item>Infinito+1</item>
-        <item>2 potencia infinito*</item>
+        <item>2 potencia infinito</item>
         <item>2 x infinito</item>
         <item>todos son iguales</item>
     </string-array>
     <string-array name="ans_mate3">
-        <item>4000 veces la poblacion de la tierra*</item>
+        <item>4000 veces la poblacion de la tierra</item>
         <item>poblacion mundial x 2</item>
         <item>la mitad de marte</item>
         <item>el mismo peso de mi orgullo</item>
@@ -164,11 +164,11 @@
     <string-array name="ans_mate4">
         <item>La cuadratura del circulo</item>
         <item>que todos los numeros son la suma de 3 capicuas</item>
-        <item>que todos los numeros son la suma de dos primos*</item>
+        <item>que todos los numeros son la suma de dos primos</item>
         <item>mi falta de amor propio</item>
     </string-array>
     <string-array name="ans_mate5">
-        <item>4*</item>
+        <item>4</item>
         <item>5</item>
         <item>oreo</item>
         <item>+un patio+</item>
@@ -184,18 +184,18 @@
 </string-array>
     <string-array name="ans_historia1">
         <item>XII</item>
-        <item>XIV*</item>
+        <item>XIV</item>
         <item>XVI</item>
         <item>oreo</item>
     </string-array>
     <string-array name="ans_historia">
         <item>Mayas</item>
-        <item>Egipcios*</item>
+        <item>Egipcios</item>
         <item>Aztecas</item>
         <item>Batman</item>
     </string-array>
     <string-array name="ans_historia3">
-        <item>1821*</item>
+        <item>1821</item>
         <item>1841</item>
         <item>1881</item>
         <item>2000</item>
@@ -203,7 +203,7 @@
     <string-array name="ans_historia4">
         <item>Imperio Aleman</item>
         <item>Imperio Español</item>
-        <item>Imperio Britanico*</item>
+        <item>Imperio Britanico</item>
         <item>Imperio Galactico</item>
     </string-array>
     <string-array name="ans_historia5">
@@ -222,19 +222,19 @@
         <item>¿Que item en Mario Kart es usado para atacar siempre al primer lugar?</item>
     </string-array>
     <string-array name="ans_videojuegos1">
-        <item>Final Fantasy*</item>
+        <item>Final Fantasy</item>
         <item>Halo</item>
         <item>Half Life</item>
         <item>Dark Souls</item>
     </string-array>
     <string-array name="ans_videojuegos2">
-        <item>Dark Souls*</item>
+        <item>Dark Souls</item>
         <item>Super Mario</item>
         <item>The Legend of Zelda</item>
         <item>Mario Party</item>
     </string-array>
     <string-array name="ans_videojuegos3">
-        <item>Doom*</item>
+        <item>Doom</item>
         <item>Super Mario</item>
         <item>Half Life</item>
         <item>Skyrim</item>
@@ -243,11 +243,11 @@
         <item>Rojo</item>
         <item>Verde</item>
         <item>Azul</item>
-        <item>Ninguno*</item>
+        <item>Ninguno</item>
     </string-array>
-    <string-array name="ans_videojuegos">
+    <string-array name="ans_videojuegos5">
         <item>Bananna</item>
-        <item>Blue Shell*</item>
+        <item>Blue Shell</item>
         <item>Red Shell</item>
         <item>Green Shell</item>
     </string-array>

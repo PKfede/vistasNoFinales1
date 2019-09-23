@@ -18,10 +18,10 @@
 
         <ImageButton
             android:id="@+id/tool_button"
-            android:layout_width="108dp"
-            android:layout_height="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/ic_launcher_background" />
+            android:src="@drawable/ic_clown" />
     </LinearLayout>
 
     <LinearLayout

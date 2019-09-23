@@ -8,8 +8,8 @@ import android.widget.CheckBox
 import com.example.examen2.Game_Configuration
 import com.example.examen2.R
 
-object Configuration {
-    var conf = Game_Configuration()
+    object Configuration {
+        var conf = Game_Configuration()
 }
 
 class Opciones2 : AppCompatActivity() {
