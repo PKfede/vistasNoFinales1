@@ -19,236 +19,234 @@
     </string-array>
 
 
-    <string-array name="quest_comics">
-        <item> ¿Cuantos Green Lanterns hay que provengan de la tierra? </item>
-        <item> ¿Quien fue el segundo robin? </item>
-        <item> ¿Quien usa rayos omega como su movimiento principal?</item>
-        <item> ¿Que busca thanos en Infinity War? </item>
-        <item> ¿De donde viene Superman? </item>
-    </string-array>
-    <string-array name="ans_comics1">
-        <item>1</item>
-        <item>4</item>
-        <item>6</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="ans_comics2">
-        <item>Jason Todd</item>
-        <item>Dick Grayson</item>
-        <item>Damian Wayne</item>
-        <item>Tim Drake</item>
-    </string-array>
-    <string-array name="ans_comics3">
-        <item>Darkside</item>
-        <item>Thanos</item>
-        <item>Terrax</item>
-        <item>Mongul</item>
-    </string-array>
-    <string-array name="ans_comics4">
-        <item>Anti-Life Equation</item>
-        <item>Infinity stones</item>
-        <item>Infinity Gauntlet</item>
-        <item>Phoenyx Force</item>
-    </string-array>
-    <string-array name="ans_comics5">
-        <item>Krypton</item>
-        <item>Metropolis</item>
-        <item>Gotham</item>
-        <item>Smallville</item>
-    </string-array>
+    <string name="quest1_comics">¿Cuantos Green Lanterns hay que provengan de la tierra?</string>
+
+        <string name="quest2_comics"> ¿Quien fue el segundo robin? </string>
+        <string name="quest3_comics"> ¿Quien usa rayos omega como su movimiento principal?</string>
+        <string name="quest4_comics"> ¿Que busca thanos en Infinity War? </string>
+        <string name="quest5_comics"> ¿De donde viene Superman? </string>
+
+    <string name="ans_comics1"></string>
+        <string name="ans1_comics1">1</string>
+        <string name="ans2comics1">4</string>
+        <string name="ans3comics1">6</string>
+        <string name="ans4comics1">5</string>
 
 
-    <string-array name="quest_fisica">
-        <item>¿Que es el gran atractor?</item>
-        <item>¿Cual no es inestable? </item>
-        <item>¿donde esta el centro del universo?</item>
-        <item>¿Cual es la antiparticula del neutron?</item>
-        <item>¿En una tormenta de rayos en el campo que harias?</item>
-    </string-array>
-    <string-array name="ans_fisica1">
-        <item>agujero negro en el centro de la galaxia</item>
-        <item>el centro del universo</item>
-        <item>region del universo a donde se dirige todo</item>
-        <item>fede siendo un iman de pena y deshonra</item>
-    </string-array>
-    <string-array name="ans_fisica2">
-        <item>el neutron</item>
-        <item>el neutrino</item>
-        <item>el boson de higgs</item>
-        <item>tus sentimientos</item>
-    </string-array>
-    <string-array name="ans_fisica3">
-        <item>no hay centro especifico</item>
-        <item>la frente de samir</item>
-        <item>la voz de segovia</item>
-        <item>todas son correctas*</item>
-    </string-array>
-    <string-array name="ans_fisica4">
-        <item>No tiene antiparticula</item>
-        <item>El antineutron*</item>
-        <item>el proton</item>
-        <item>no se ha descubierto</item>
-    </string-array>
-    <string-array name="ans_fisica5">
-        <item>subirte al punto mas alto</item>
-        <item>Meterte dentro de un coche*</item>
-        <item>Ponerte debajo de un arbol</item>
-        <item>Aceptar tu muerte</item>
-    </string-array>
+        <string name="ans1_comics2">Jason Todd</string>
+        <string name="ans2_comics2">Dick Grayson</string>
+        <string name="ans3_comics2">Damian Wayne</string>
+        <string name="ans4_comics2">Tim Drake</string>
+
+        <string name="ans1_comics3">Darkside</string>
+        <string name="ans2_comics3">Thanos</string>
+        <string name="ans3_comics3">Terrax</string>
+        <string name="ans4_comics3">Mongul</string>
 
 
-    <string-array name="quest_cine">
-        <item>¿Cuantas peliculas tiene el universo de marvel?</item>
-        <item>¿Cual es la octava pelicula de Quentin Tarantino?</item>
-        <item>¿Los dinosaurios de pusieron de moda gracias a cual pelicula?</item>
-        <item>¿Que estudio hizo la saga de Toy Story?</item>
-        <item>¿El modelo T-800 es el modelo de un robot de que pelicula?</item>
-    </string-array>
-    <string-array name="ans_cine1">
-        <item>22</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-    </string-array>
-    <string-array name="ans_cine2">
-        <item>The Hateful Eight</item>
-        <item>Kill Bill</item>
-        <item>Reservoir Dogs</item>
-        <item>Django</item>
-    </string-array>
-    <string-array name="ans_cine3">
-        <item>Jurassic Park</item>
-        <item>King Kong</item>
-        <item>Godzilla</item>
-        <item>Cars Edicion Samir</item>
-    </string-array>
-    <string-array name="ans_cine4">
-        <item>Pixar</item>
-        <item>Disney</item>
-        <item>Fox</item>
-        <item>Universal</item>
-    </string-array>
-    <string-array name="ans_cine5">
-        <item>Yo, Robot</item>
-        <item>Cortocircuito</item>
-        <item>Terminator</item>
-        <item>Robocop</item>
-    </string-array>
+        <string name="ans1_comics4">Anti-Life Equation</string>
+        <string name="ans2_comics4">Infinity stones</string>
+        <string name="ans3_comics4">Infinity Gauntlet</string>
+        <string name="ans4_comics4">Phoenyx Force</string>
 
 
-    <string-array name="quest_mate">
-        <item>¿Quien dijo "Los matematicos son una maquina que convierten cafe en teorias"?</item>
-        <item>¿Que es mas grande que el infinito de los numeros naturales?</item>
-        <item>¿Cuanto pesan los oceanos en la tierra?</item>
-        <item>¿Cual de estos problemas sigue abierto?</item>
-        <item>¿cuanto es 2 + 2?</item>
-    </string-array>
-    <string-array name="ans_mate1">
-        <item>Martin Gardner</item>
-        <item>Paul Erdos</item>
-        <item>Albert Einstein</item>
-        <item>zeta</item>
-    </string-array>
-    <string-array name="ans_mate2">
-        <item>Infinito+1</item>
-        <item>2 potencia infinito</item>
-        <item>2 x infinito</item>
-        <item>todos son iguales</item>
-    </string-array>
-    <string-array name="ans_mate3">
-        <item>4000 veces la poblacion de la tierra</item>
-        <item>poblacion mundial x 2</item>
-        <item>la mitad de marte</item>
-        <item>el mismo peso de mi orgullo</item>
-    </string-array>
-    <string-array name="ans_mate4">
-        <item>La cuadratura del circulo</item>
-        <item>que todos los numeros son la suma de 3 capicuas</item>
-        <item>que todos los numeros son la suma de dos primos</item>
-        <item>mi falta de amor propio</item>
-    </string-array>
-    <string-array name="ans_mate5">
-        <item>4</item>
-        <item>5</item>
-        <item>oreo</item>
-        <item>+un patio+</item>
-    </string-array>
+        <string name="ans1_comics5">Krypton</string>
+        <string name="ans2_comics5">Metropolis</string>
+        <string name="ans3_comics5">Gotham</string>
+        <string name="ans4_comics5">Smallville</string>
 
 
-    <string-array name="quest_historia">
-    <item>¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</item>
-    <item>¿Que civilizacion antigua fue la primera en medirla duracion de un año? </item>
-    <item>¿En que año panama se proclama independiente de españa?</item>
-    <item>Durante el siglo XIX¿Que imperio era el mas grande?</item>
-    <item>¿En que año se produjo la revolucion rusa?</item>
-</string-array>
-    <string-array name="ans_historia1">
-        <item>XII</item>
-        <item>XIV</item>
-        <item>XVI</item>
-        <item>oreo</item>
-    </string-array>
-    <string-array name="ans_historia">
-        <item>Mayas</item>
-        <item>Egipcios</item>
-        <item>Aztecas</item>
-        <item>Batman</item>
-    </string-array>
-    <string-array name="ans_historia3">
-        <item>1821</item>
-        <item>1841</item>
-        <item>1881</item>
-        <item>2000</item>
-    </string-array>
-    <string-array name="ans_historia4">
-        <item>Imperio Aleman</item>
-        <item>Imperio Español</item>
-        <item>Imperio Britanico</item>
-        <item>Imperio Galactico</item>
-    </string-array>
-    <string-array name="ans_historia5">
-        <item>1990</item>
-        <item>1917</item>
-        <item>1929</item>
-        <item>1980</item>
-    </string-array>
 
 
-    <string-array name="quest_videojuegos">
-        <item>¿En que serie de videojuegos aparece Cloud?</item>
-        <item>¿cual de estos juegos es definido por su gran dificultad?</item>
-        <item>¿En que serie aparece el personaje Doomslayer?</item>
-        <item>¿En Mass Effect 3 que final fue el mas importante?</item>
-        <item>¿Que item en Mario Kart es usado para atacar siempre al primer lugar?</item>
-    </string-array>
-    <string-array name="ans_videojuegos1">
-        <item>Final Fantasy</item>
-        <item>Halo</item>
-        <item>Half Life</item>
-        <item>Dark Souls</item>
-    </string-array>
-    <string-array name="ans_videojuegos2">
-        <item>Dark Souls</item>
-        <item>Super Mario</item>
-        <item>The Legend of Zelda</item>
-        <item>Mario Party</item>
-    </string-array>
-    <string-array name="ans_videojuegos3">
-        <item>Doom</item>
-        <item>Super Mario</item>
-        <item>Half Life</item>
-        <item>Skyrim</item>
-    </string-array>
-    <string-array name="ans_videojuegos4">
-        <item>Rojo</item>
-        <item>Verde</item>
-        <item>Azul</item>
-        <item>Ninguno</item>
-    </string-array>
-    <string-array name="ans_videojuegos5">
-        <item>Bananna</item>
-        <item>Blue Shell</item>
-        <item>Red Shell</item>
-        <item>Green Shell</item>
-    </string-array>
+        <string name="quest1_fisica">¿Que es el gran atractor?</string>
+        <string name="quest2_fisica">¿Cual no es inestable? </string>
+        <string name="quest3_fisica">¿donde esta el centro del universo?</string>
+        <string name="quest4_fisica">¿Cual es la antiparticula del neutron?</string>
+        <string name="quest5_fisica">¿En una tormenta de rayos en el campo que harias?</string>
+
+
+        <string name="ans1_fisica1">agujero negro en el centro de la galaxia</string>
+        <string name="ans2_fisica1">el centro del universo</string>
+        <string name="ans3_fisica1">region del universo a donde se dirige todo</string>
+        <string name="ans4_fisica1">fede siendo un iman de pena y deshonra</string>
+
+
+        <string name="ans1_fisica2">el neutron</string>
+        <string name="ans2_fisica2">el neutrino</string>
+        <string name="ans3_fisica2">el boson de higgs</string>
+        <string name="ans4_fisica2">tus sentimientos</string>
+
+
+        <string name="ans1_fisica3">no hay centro especifico</string>
+        <string name="ans2_fisica3">la frente de samir</string>
+        <string name="ans3_fisica3">la voz de segovia</string>
+        <string name="ans4_fisica3">todas son correctas</string>
+
+
+        <string name="ans1_fisica4">No tiene antiparticula</string>
+        <string name="ans2_fisica4">El antineutron</string>
+        <string name="ans3_fisica4">el proton</string>
+        <string name="ans4_fisica4">no se ha descubierto</string>
+
+
+        <string name="ans1_fisica5">subirte al punto mas alto</string>
+        <string name="ans2_fisica5">Meterte dentro de un coche</string>
+        <string name="ans3_fisica5">Ponerte debajo de un arbol</string>
+        <string name="ans4_fisica5">Aceptar tu muerte</string>
+
+
+
+        <string name="quest1_cine">¿Cuantas peliculas tiene el universo de marvel?</string>
+        <string name="quest2_cine">¿Cual es la octava pelicula de Quentin Tarantino?</string>
+        <string name="quest3_cine">¿Los dinosaurios de pusieron de moda gracias a cual pelicula?</string>
+        <string name="quest4_cine">¿Que estudio hizo la saga de Toy Story?</string>
+        <string name="quest5_cine">¿El modelo T-800 es el modelo de un robot de que pelicula?</string>
+
+
+        <string name="ans1_cine1">22</string>
+        <string name="ans2_cine1">10</string>
+        <string name="ans3_cine1">15</string>
+        <string name="ans4_cine1">20</string>
+
+
+        <string name="ans1_cine2">The Hateful Eight</string>
+        <string name="ans2_cine2">Kill Bill</string>
+        <string name="ans3_cine2">Reservoir Dogs</string>
+        <string name="ans4_cine2">Django</string>
+
+
+        <string name="ans1_cine3">Jurassic Park</string>
+        <string name="ans2_cine3">King Kong</string>
+        <string name="ans3_cine3">Godzilla</string>
+        <string name="ans4_cine3">Cars Edicion Samir</string>
+
+
+        <string name="ans1_cine4">Pixar</string>
+        <string name="ans2_cine4">Disney</string>
+        <string name="ans3_cine4">Fox</string>
+        <string name="ans4_cine4">Universal</string>
+
+
+        <string name="ans1_cine5">Yo, Robot</string>
+        <string name="ans2_cine5">Cortocircuito</string>
+        <string name="ans3_cine5">Terminator</string>
+        <string name="ans4_cine5">Robocop</string>
+
+
+
+
+        <string name="quest1_mate">¿Quien dijo "Los matematicos son una maquina que convierten cafe en teorias"?</string>
+        <string name="quest2_mate">¿Que es mas grande que el infinito de los numeros naturales?</string>
+        <string name="quest3_mate">¿Cuanto pesan los oceanos en la tierra?</string>
+        <string name="quest4_mate">¿Cual de estos problemas sigue abierto?</string>
+        <string name="quest5_mate">¿cuanto es 2 + 2?</string>
+
+
+        <string name="ans1_mate1">Martin Gardner</string>
+        <string name="ans2_mate1">Paul Erdos</string>
+        <string name="ans3_mate1">Albert Einstein</string>
+        <string name="ans4_mate1">zeta</string>
+
+
+        <string name="ans1_mate2">Infinito+1</string>
+        <string name="ans2_mate2">2 potencia infinito</string>
+        <string name="ans3_mate2">2 x infinito</string>
+        <string name="ans4_mate2">todos son iguales</string>
+
+
+        <string name="ans1_mate3">4000 veces la poblacion de la tierra</string>
+        <string name="ans2_mate3">poblacion mundial x 2</string>
+        <string name="ans3_mate3">la mitad de marte</string>
+        <string name="ans4_mate3">el mismo peso de mi orgullo</string>
+
+
+        <string name="ans1_mate4">La cuadratura del circulo</string>
+        <string name="ans2_mate4">que todos los numeros son la suma de 3 capicuas</string>
+        <string name="ans3_mate4">que todos los numeros son la suma de dos primos</string>
+        <string name="ans4_mate4">mi falta de amor propio</string>
+
+
+        <string name="ans1_mate5">4</string>
+        <string name="ans2_mate5">5</string>
+        <string name="ans3_mate5">oreo</string>
+        <string name="ans4_mate5">+un patio+</string>
+
+
+
+
+    <string name="quest1_historia">¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</string>
+    <string name="quest2_historia">¿Que civilizacion antigua fue la primera en medirla duracion de un año? </string>
+    <string name="quest3_historia">¿En que año panama se proclama independiente de españa?</string>
+    <string name="quest4_historia">Durante el siglo XIX¿Que imperio era el mas grande?</string>
+    <string name="quest5_historia">¿En que año se produjo la revolucion rusa?</string>
+
+
+        <string name="ans1_historia1">XII</string>
+        <string name="ans2_historia1">XIV</string>
+        <string name="ans3_historia1">XVI</string>
+        <string name="ans4_historia1">oreo</string>
+
+
+        <string name="ans1_historia2">Mayas</string>
+        <string name="ans2_historia2">Egipcios</string>
+        <string name="ans3_historia2">Aztecas</string>
+        <string name="ans4_historia2">Batman</string>
+
+
+        <string name="ans1_historia3">1821</string>
+        <string name="ans2_historia3">1841</string>
+        <string name="ans3_historia3">1881</string>
+        <string name="ans4_historia3">2000</string>
+
+
+        <string name="ans1_historia4">Imperio Aleman</string>
+        <string name="ans2_historia4">Imperio Español</string>
+        <string name="ans3_historia4">Imperio Britanico</string>
+        <string name="ans4_historia4">Imperio Galactico</string>
+
+
+        <string name="ans1_historia5">1990</string>
+        <string name="ans2_historia5">1917</string>
+        <string name="ans3_historia5">1929</string>
+        <string name="ans4_historia5">1980</string>
+
+
+
+
+        <string name="quest1_videojuegos">¿En que serie de videojuegos aparece Cloud?</string>
+        <string name="quest2_videojuegos">¿cual de estos juegos es definido por su gran dificultad?</string>
+        <string name="quest3_videojuegos">¿En que serie aparece el personaje Doomslayer?</string>
+        <string name="quest4_videojuegos">¿En Mass Effect 3 que final fue el mas importante?</string>
+        <string name="quest5_videojuegos">¿Que item en Mario Kart es usado para atacar siempre al primer lugar?</string>
+
+
+        <string name="ans1_videojuegos1">Final Fantasy</string>
+        <string name="ans2_videojuegos1">Halo</string>
+        <string name="ans3_videojuegos1">Half Life</string>
+        <string name="ans4_videojuegos1">Dark Souls</string>
+
+
+        <string name="ans1_videojuegos2">Dark Souls</string>
+        <string name="ans2_videojuegos2">Super Mario</string>
+        <string name="ans3_videojuegos2">The Legend of Zelda</string>
+        <string name="ans4_videojuegos2">Mario Party</string>
+
+
+        <string name="ans1_videojuegos3">Doom</string>
+        <string name="ans2_videojuegos3">Super Mario</string>
+        <string name="ans3_videojuegos3">Half Life</string>
+        <string name="ans4_videojuegos3">Skyrim</string>
+
+
+        <string name="ans1_videojuegos4">Rojo</string>
+        <string name="ans2_videojuegos4">Verde</string>
+        <string name="ans3_videojuegos4">Azul</string>
+        <string name="ans4_videojuegos4">Ninguno</string>
+
+
+        <string name="ans1_videojuegos5">Bananna</string>
+        <string name="ans2_videojuegos5">Blue Shell</string>
+        <string name="ans3_videojuegos5">Red Shell</string>
+        <string name="ans4_videojuegos5">Green Shell</string>
+
 </resources>

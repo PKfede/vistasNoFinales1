@@ -68,7 +68,8 @@
         app:layout_constraintEnd_toStartOf="@+id/nxt_Btn"
         app:layout_constraintStart_toEndOf="@+id/prev_Btn"
         app:layout_constraintTop_toBottomOf="@+id/quesNum_text"
-        tools:text="HOLA MUNDO COMO ESTAN ESTO ES UNA PREGUNTA BIEN VERGA" />
+        tools:text=""
+        />
 
     <ImageButton
         android:id="@+id/prev_Btn"
