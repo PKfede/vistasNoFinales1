@@ -173,13 +173,14 @@
         <item>+un patio+</item>
     </string-array>
 
+
     <string-array name="quest_historia">
-        <item>¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</item>
-        <item>¿Que civilizacion antigua fue la primera en medirla duracion de un año? </item>
-        <item>¿En que año panama se proclama independiente de españa?</item>
-        <item>Durante el siglo XIX¿Que imperio era el mas grande?</item>
-        <item>¿En que año se produjo la revolucion rusa?</item>
-    </string-array>
+    <item>¿En que siglo siglo se produjo en europa la mayor epidemia de la peste bubonica?</item>
+    <item>¿Que civilizacion antigua fue la primera en medirla duracion de un año? </item>
+    <item>¿En que año panama se proclama independiente de españa?</item>
+    <item>Durante el siglo XIX¿Que imperio era el mas grande?</item>
+    <item>¿En que año se produjo la revolucion rusa?</item>
+</string-array>
     <string-array name="ans_historia1">
         <item>XII</item>
         <item>XIV*</item>
@@ -209,5 +210,44 @@
         <item>1917</item>
         <item>1929</item>
         <item>1980</item>
+    </string-array>
+
+
+    <string-array name="quest_videojuegos">
+        <item>¿En que serie de videojuegos aparece Cloud?</item>
+        <item>¿cual de estos juegos es definido por su gran dificultad?</item>
+        <item>¿En que serie aparece el personaje Doomslayer?</item>
+        <item>¿En Mass Effect 3 que final fue el mas importante?</item>
+        <item>¿Que item en Mario Kart es usado para atacar siempre al primer lugar?</item>
+    </string-array>
+    <string-array name="ans_videojuegos1">
+        <item>Final Fantasy*</item>
+        <item>Halo</item>
+        <item>Half Life</item>
+        <item>Dark Souls</item>
+    </string-array>
+    <string-array name="ans_videojuegos2">
+        <item>Dark Souls*</item>
+        <item>Super Mario</item>
+        <item>The Legend of Zelda</item>
+        <item>Mario Party</item>
+    </string-array>
+    <string-array name="ans_videojuegos3">
+        <item>Doom*</item>
+        <item>Super Mario</item>
+        <item>Half Life</item>
+        <item>Skyrim</item>
+    </string-array>
+    <string-array name="ans_videojuegos4">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Ninguno*</item>
+    </string-array>
+    <string-array name="ans_videojuegos">
+        <item>Bananna</item>
+        <item>Blue Shell*</item>
+        <item>Red Shell</item>
+        <item>Green Shell</item>
     </string-array>
 </resources>
